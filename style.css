@@ -1,0 +1,577 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-image {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1349,h_951,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+header {
+  width: 100%;
+  height: 7.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+
+header i {
+  color: #ffffff;
+}
+  
+header nav {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+header nav .logo {
+  color: #ffffff;
+  font-size: 1.625rem;
+  text-decoration: none;
+}
+  
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 3rem;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 4px;
+  padding: 10px;
+}
+  
+header nav ul li a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #f2d5a0;
+}
+
+header nav ul li .active {
+  color: #f2d5a0;
+}
+
+header .icons {
+  display: flex;
+  gap: 1rem;
+  padding-left: 3rem;
+}
+
+header .icons i,
+header nav .responsive-icons {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+header nav .responsive-icons {
+  display: none;
+}
+
+header nav .checkBtn {
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+  
+header nav #check {
+  display: none;
+}
+
+main {
+  height: 48rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+main article {
+  width: 88%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+main article h1 {
+  font-size: 3.75rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  line-height: 7rem;
+}
+
+main article h3 {
+  font-size: 1.375rem;
+  color: #ffffff;
+  letter-spacing: 0.6em;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  height: 5.4375rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+footer div {
+  width: 88%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer div p {
+  font-size: 0.875rem;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer div p a {
+  color: #ffffff;
+}
+  
+.bg-color {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#portfolio {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 3rem;
+}
+
+#portfolio article {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+
+#portfolio article h1 {
+  color: #ffffff;
+  font-size: 2.625rem;
+}
+
+#portfolio .gallery {
+  height: 100%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio .gallery .left {
+  height: 29.75rem;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_88bd4fe30c344d14bed0339e1eb79870~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio .gallery .left:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_88bd4fe30c344d14bed0339e1eb79870~mv2.jpg');
+}
+
+#portfolio .gallery .middle {
+  height: 29.75rem;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_dd4834909c62470ab0ce5390a7c9d8d0~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio .gallery .middle:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_dd4834909c62470ab0ce5390a7c9d8d0~mv2.jpg');
+}
+
+#portfolio .gallery .right {
+  height: 29.75rem;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_aa358ceedb0a48d8a1adf30fd78a0c5f~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio .gallery .right:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_aa358ceedb0a48d8a1adf30fd78a0c5f~mv2.jpg');
+}
+
+#portfolio .gallery div h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+#portfolio .gallery a {
+  text-decoration: none;
+}
+
+#portfolio .gallery .img {
+  overflow: hidden;
+}
+
+#portfolio .gallery a {
+  transition: transform .8s ease;
+}
+
+#portfolio .gallery .img:hover a {
+  transform: scale(1.15);
+}
+
+#about {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  row-gap: 8rem;
+}
+
+#about .top {
+  margin-top: 3rem;
+  height: 100%;
+  width: 88%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about .top .left div {
+  height: 100%;
+  width: 25rem;
+}
+
+#about section div h1 {
+  color: #ffffff;
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin: 0px 0px 3rem;
+  padding: 0px;
+}
+
+#about section div p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0px 0px 3rem;
+  padding: 0px;
+}
+
+#about .top .right {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+#about .top .right .bg-img {
+  height: 27.188rem;
+  width: 18.188rem;
+  background-image: url('https://static.wixstatic.com/media/e4f166_7e1a3e75d1c3457ba9cf9ae94106b730~mv2.jpg/v1/fill/w_291,h_435,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/farol-106-c2Zrm27IEyk-unsplash%20(2).jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#about .bottom {
+  height: 100%;
+  width: 88%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about .bottom .left div {
+  height: 100%;
+  width: 29rem;
+}
+
+#about .bottom .left div h1 {
+  margin-bottom: 8rem;
+}
+
+#about .bottom .left div p {
+  width: 25rem;
+}
+
+#about .bottom .right {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#about .bottom .right div:nth-child(1) {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_cadb56274f54450297370583525a8ee1~mv2.png/v1/fill/w_146,h_74,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about .bottom .right div:nth-child(2) {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_bf11f3cd4257416d94827936c8b48d11~mv2.png/v1/fill/w_138,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%202.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about .bottom .right div:nth-child(3) {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_5cf7d4c325f649d9bd1479b3713d6d2b~mv2.png/v1/fill/w_119,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about .bottom .right div:nth-child(4) {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_7871c6522c3e4eb6b6515989c93e3205~mv2.png/v1/fill/w_113,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%204.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#about .bottom .right div:nth-child(5) {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static.wixstatic.com/media/e4f166_ee0369c2aa904dddb8f2d8c49dddc7d1~mv2.png/v1/fill/w_185,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%203.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#albums {
+  height: 100%;
+  width: 100%;
+  row-gap: 5rem;
+}
+
+#albums article {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#albums article h1 {
+  color: #ffffff;
+  font-size: 3.75rem;
+}
+
+#albums .gallery {
+  height: 100%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+#albums .gallery .img .left {
+  height: 15.563rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.pnKOqmu0XzHujvm-JCoNTB_BUa0exL43RdfUoe3scyM');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#albums .gallery .img .middle {
+  height: 19.063rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.jpg/v1/fill/w_373,h_305,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfNjA3ZThmYjFlN2UyNDIxNjlkNDg5MDkyZGZhNDliYWN-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.qjFT5ExXsRTiiS1QckGwFTw-o0Rnt1Wb2AL2SxES8Ek');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#albums .gallery .img .right {
+  height: 15.563rem;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMmRiNDQ4YzVkOTc0NDMxOGE5OTU4ZDYyYWY2ZDgxNzB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.etOT-QrQ8NfOgFOZ6O_mBbPIgIKl1nuCap0Mf0dlANQ');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#albums .gallery .img .left:hover {
+  background-image: url('https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.pnKOqmu0XzHujvm-JCoNTB_BUa0exL43RdfUoe3scyM');
+}
+
+#albums .gallery .img .middle:hover {
+  background-image: url('https://static.wixstatic.com/media/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.jpg/v1/fill/w_373,h_305,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfNjA3ZThmYjFlN2UyNDIxNjlkNDg5MDkyZGZhNDliYWN-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.qjFT5ExXsRTiiS1QckGwFTw-o0Rnt1Wb2AL2SxES8Ek');
+}
+
+#albums .gallery .img .right:hover {
+  background-image: url('https://static.wixstatic.com/media/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMmRiNDQ4YzVkOTc0NDMxOGE5OTU4ZDYyYWY2ZDgxNzB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.etOT-QrQ8NfOgFOZ6O_mBbPIgIKl1nuCap0Mf0dlANQ');
+}
+
+#albums .gallery .img div {
+  width: 80%;
+}
+
+#albums .gallery h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+#albums .gallery .img a {
+  text-decoration: none;
+}
+
+#albums .gallery .img a:hover div {
+  display: none;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+}
+
+#contact section {
+  height: 100%;
+  width: 88%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+}
+
+#contact section .left div {
+  height: 100%;
+  max-width: 14.125rem;
+}
+
+#contact section .left h1 {
+  color: #ffffff;
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#contact section .left h6,
+#contact section .left p,
+#contact section .left p a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact section .left h6 {
+  margin: 3rem 0px;
+}
+
+#contact section .left p a {
+  text-decoration: none;
+}
+
+#contact section .right label {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+#contact section .right div {
+  display: inline-block;
+  margin: 1rem;
+}
+
+#contact section .right input,
+#contact section .right textarea,
+#contact section .right button {
+  background-color: transparent;
+}
+
+#contact section .right input,
+#contact section .right textarea {
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+
+#contact section .right input,
+#contact section .right textarea {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#contact section .right input:hover,
+#contact section .right textarea:hover {
+  border: 2px solid white;
+}
+
+#contact section .right button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#contact section .right button {
+  width: 9.375rem;
+  height: 2.625rem;
+  border: 1px solid white;
+  float: right;
+  margin-top: 1rem;
+}
+
+#contact section .right button:hover {
+  background-color: #ffffff;
+}
+
+#contact section .right button:hover a {
+  color: black;
+}
