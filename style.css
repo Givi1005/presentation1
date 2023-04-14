@@ -10,7 +10,7 @@ body {
   padding: 0px;
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1349,h_951,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg');
+  background-image: url('./assets/background-images/index-page/index-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -209,37 +209,37 @@ footer div p a {
 #portfolio .gallery .left {
   height: 29.75rem;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_88bd4fe30c344d14bed0339e1eb79870~mv2.jpg');
+  background-image: url('./assets/background-images/portfolio/portraits/portraits.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #portfolio .gallery .left:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_88bd4fe30c344d14bed0339e1eb79870~mv2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/portfolio/portraits/portraits.jpg');
 }
 
 #portfolio .gallery .middle {
   height: 29.75rem;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_dd4834909c62470ab0ce5390a7c9d8d0~mv2.jpg');
+  background-image: url('./assets/background-images/portfolio/places/places.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #portfolio .gallery .middle:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_dd4834909c62470ab0ce5390a7c9d8d0~mv2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/portfolio/places/places.jpg');
 }
 
 #portfolio .gallery .right {
   height: 29.75rem;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_aa358ceedb0a48d8a1adf30fd78a0c5f~mv2.jpg');
+  background-image: url('./assets/background-images/portfolio/fashion/fashion.jpg');
   background-size: cover;
   background-position: center;
 }
 
 #portfolio .gallery .right:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/e4f166_aa358ceedb0a48d8a1adf30fd78a0c5f~mv2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/portfolio/fashion/fashion.jpg');
 }
 
 #portfolio .gallery div h1 {
@@ -313,7 +313,7 @@ footer div p a {
 #about .top .right .bg-img {
   height: 27.188rem;
   width: 18.188rem;
-  background-image: url('https://static.wixstatic.com/media/e4f166_7e1a3e75d1c3457ba9cf9ae94106b730~mv2.jpg/v1/fill/w_291,h_435,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/farol-106-c2Zrm27IEyk-unsplash%20(2).jpg');
+  background-image: url('./assets/background-images/about/about.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -348,7 +348,7 @@ footer div p a {
 #about .bottom .right div:nth-child(1) {
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_cadb56274f54450297370583525a8ee1~mv2.png/v1/fill/w_146,h_74,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy.png');
+  background-image: url(./assets/background-images/about/remake.png);
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -357,7 +357,7 @@ footer div p a {
 #about .bottom .right div:nth-child(2) {
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_bf11f3cd4257416d94827936c8b48d11~mv2.png/v1/fill/w_138,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%202.png');
+  background-image: url('./assets/background-images/about/tree.png');
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -366,7 +366,7 @@ footer div p a {
 #about .bottom .right div:nth-child(3) {
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_5cf7d4c325f649d9bd1479b3713d6d2b~mv2.png/v1/fill/w_119,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201.png');
+  background-image: url('./assets/background-images/about/esther.png');
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -375,7 +375,7 @@ footer div p a {
 #about .bottom .right div:nth-child(4) {
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_7871c6522c3e4eb6b6515989c93e3205~mv2.png/v1/fill/w_113,h_63,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%204.png');
+  background-image: url('./assets/background-images/about/ex-gravity.png');
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -384,7 +384,7 @@ footer div p a {
 #about .bottom .right div:nth-child(5) {
   height: 100%;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/e4f166_ee0369c2aa904dddb8f2d8c49dddc7d1~mv2.png/v1/fill/w_185,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy%203.png');
+  background-image: url('./assets/background-images/about/manning-powel.png');
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -419,7 +419,7 @@ footer div p a {
 #albums .gallery .img .left {
   height: 15.563rem;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.pnKOqmu0XzHujvm-JCoNTB_BUa0exL43RdfUoe3scyM');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/albums/summer-colors/summer-colors.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -428,7 +428,7 @@ footer div p a {
 #albums .gallery .img .middle {
   height: 19.063rem;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.jpg/v1/fill/w_373,h_305,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfNjA3ZThmYjFlN2UyNDIxNjlkNDg5MDkyZGZhNDliYWN-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.qjFT5ExXsRTiiS1QckGwFTw-o0Rnt1Wb2AL2SxES8Ek');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/albums/folkestone-portraits-of-a-community/folkestone-portraits-of-a-community.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -437,22 +437,22 @@ footer div p a {
 #albums .gallery .img .right {
   height: 15.563rem;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static.wixstatic.com/media/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMmRiNDQ4YzVkOTc0NDMxOGE5OTU4ZDYyYWY2ZDgxNzB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.etOT-QrQ8NfOgFOZ6O_mBbPIgIKl1nuCap0Mf0dlANQ');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/background-images/albums/journey-to-macau/journey-to-macau.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #albums .gallery .img .left:hover {
-  background-image: url('https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.pnKOqmu0XzHujvm-JCoNTB_BUa0exL43RdfUoe3scyM');
+  background-image: url('./assets/background-images/albums/summer-colors/summer-colors.jpg');
 }
 
 #albums .gallery .img .middle:hover {
-  background-image: url('https://static.wixstatic.com/media/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.jpg/v1/fill/w_373,h_305,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_607e8fb1e7e242169d489092dfa49bac~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfNjA3ZThmYjFlN2UyNDIxNjlkNDg5MDkyZGZhNDliYWN-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.qjFT5ExXsRTiiS1QckGwFTw-o0Rnt1Wb2AL2SxES8Ek');
+  background-image: url('./assets/background-images/albums/folkestone-portraits-of-a-community/folkestone-portraits-of-a-community.jpg');
 }
 
 #albums .gallery .img .right:hover {
-  background-image: url('https://static.wixstatic.com/media/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.jpg/v1/fill/w_373,h_249,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_2db448c5d9744318a9958d62af6d8170~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMmRiNDQ4YzVkOTc0NDMxOGE5OTU4ZDYyYWY2ZDgxNzB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2ODgxNjk2MDAiLCJleHAiOjE2ODgxNjk2MDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.etOT-QrQ8NfOgFOZ6O_mBbPIgIKl1nuCap0Mf0dlANQ');
+  background-image: url('./assets/background-images/albums/journey-to-macau/journey-to-macau.jpg');
 }
 
 #albums .gallery .img div {
