@@ -3,6 +3,7 @@ body {
   padding: 0px;
   width: 100%;
   font-family: 'Inter', sans-serif;
+  background-color: black;
 }
 
 .bg-image {
@@ -161,14 +162,6 @@ footer div p {
 
 footer div p a {
   color: #ffffff;
-}
-  
-.bg-color {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: black;
 }
 
 #portfolio {
