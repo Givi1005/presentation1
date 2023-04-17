@@ -177,6 +177,42 @@
     #contact section .right button {
       float: left;
     }
+
+    #portraits .portraits-gallery {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    #places .places-gallery {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    #fashion .fashion-gallery {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    #summer-colors .summer-colors-gallery .top,
+    #summer-colors .summer-colors-gallery .middle,
+    #summer-colors .summer-colors-gallery .bottom {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    #folkestone .folkestone-gallery .first,
+    #folkestone .folkestone-gallery .third {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    #macau .macau-gallery .top,
+    #macau .macau-gallery .middle,
+    #macau .macau-gallery .bottom {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 3rem;
+    }
   }
 
   @media screen and (max-width: 530px) {
@@ -236,7 +272,7 @@
     }
 
     #about .bottom .right div {
-      background-size: 35%;
+      background-size: 25%;
     }
 
     #albums .gallery {
